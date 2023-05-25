@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henger</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Henger felszíne</h1>
+
+        <div class="cylinderForm">
+            <div class="mt-3">
+                <label for="radius" class="form-label">Sugár</label>
+                <input type="text" class="form-control"
+                id="radius">
+            </div>
+            <div class="mt-3">
+                <label for="height" class="form-label">Magasság</label>
+                <input type="text" class="form-control"
+                id="height">
+            </div>
+            <div class="mt-3">
+                <button class="btn btn-primary"
+                id="calcButton">Számít</button>
+            </div>
+            <div class="mt-3">
+                <label for="surface" class="form-label">Felszín</label>
+                <input type="text" class="form-control"
+                id="surface">
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div id="badinput">
+        Hibás bevitt értékek
+    </div>
+
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
